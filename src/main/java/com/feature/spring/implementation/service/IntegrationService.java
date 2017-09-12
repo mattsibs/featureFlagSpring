@@ -7,8 +7,8 @@ import com.feature.spring.implementation.feature.model.Feature;
 @FeatureFlag(flag = Feature.INTEGRATION)
 public class IntegrationService {
 
-    public String isThisActive() {
-        return "YES";
+    public String status() {
+        return "Integration service active";
     }
 
 }
